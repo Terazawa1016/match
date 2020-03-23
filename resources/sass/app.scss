@@ -1,0 +1,37 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+$fa-font-path: "../webfonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome"; /* 追記 */
+@import '~@fortawesome/fontawesome-free/scss/solid'; /* 追記 */
+@import '~@fortawesome/fontawesome-free/scss/regular'; /* 追記 */
+@import '~@fortawesome/fontawesome-free/scss/brands'; /* 追記 */
+
+/* pages */
+@import "top";
+
+@import "sign_up";
+
+@import "sign_in";
+
+//topのページ用css
+@import "show";
+
+//編集用css
+@import "edit";
+
+//jTinder用css
+@import "jTinder";
+
+// マッチング用
+@import "matching";
+
+//チャット用
+@import "chat";
