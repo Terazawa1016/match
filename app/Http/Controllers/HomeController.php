@@ -25,7 +25,6 @@ class HomeController extends Controller
      * @return \Illuminate\Contracts\Support\Renderable
      */
 
-     //ATOMGitHub
     public function index()
     {
       // Userテーブルの情報を全て取得
