@@ -11,6 +11,7 @@ return array(
     'App\\ChatRoomUser' => $baseDir . '/app/ChatRoomUser.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Constant\\Status' => $baseDir . '/app/Constant/Status.php',
+    'App\\Events\\ChatPusher' => $baseDir . '/app/Events/ChatPusher.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\ConfirmPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ConfirmPasswordController.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
