@@ -70,6 +70,7 @@ class RegisterController extends Controller
      */
      protected function create(array $data)
       {
+        //ハロー
         //まずここでバリデーションを逃れた画像を取得する
         $imageFile = $data['img_name'];
         //引数$dataからname='img_name'を取得(アップロードするファイル情報)
