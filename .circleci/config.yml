@@ -21,7 +21,8 @@ jobs:
                       - "b4:33:3e:ce:7d:eb:7e:fd:c3:23:da:ce:f3:5a:77:5a"
             # CircleCI に登録した環境変数を使って SSH
             - run: ssh srszrmlb@osk002.cbsv.jp 'ls -la'
- 
+            - run: ssh srszrmlb@osk002.cbsv.jp 'pwd'
+
 workflows:
     version: 2
     build_and_deploy:
