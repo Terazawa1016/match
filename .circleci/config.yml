@@ -18,7 +18,7 @@ jobs:
             # CircleCI に登録した秘密鍵を呼び出す
             - add_ssh_keys:
                   fingerprints:
-                      - "b4:33:3e:ce:7d:eb:7e:fd:c3:23:da:ce:f3:5a:77:5a"
+                      - $fingerprint
             # CircleCI に登録した環境変数を使って SSH
             - run: ssh srszrmlb@osk002.cbsv.jp 'ls -la'
             - run: ssh srszrmlb@osk002.cbsv.jp 'pwd'
