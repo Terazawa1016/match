@@ -21,7 +21,8 @@ jobs:
                       - $fingerprint
             # CircleCI に登録した環境変数を使って SSH
             - run: ssh srszrmlb@osk002.cbsv.jp 'ls -la'
-            - run: ssh srszrmlb@osk002.cbsv.jp 'pwd'
+            - run: ssh srszrmlb@osk002.cbsv.jp 'ls'
+
 
 workflows:
     version: 2
