@@ -31,7 +31,3 @@ workflows:
                 requires:
                     # build ジョブに依存してるので、先に build ジョブを実行しろ！
                     - build
-                # master ブランチに push された場合のみ deploy
-                filters:
-                    branches:
-                        only: master
