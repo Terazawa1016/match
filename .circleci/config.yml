@@ -20,8 +20,7 @@ jobs:
                   fingerprints:
                       - $fingerprint
             # CircleCI に登録した環境変数を使って SSH
-            - run: ssh srszrmlb@osk002.cbsv.jp 'ls -la'
-            - run: ssh srszrmlb@osk002.cbsv.jp 'ls'
+            - run: ssh srszrmlb@osk002.cbsv.jp 'cd /home/srszrmlb/public_html/portfolio.cfbx.jp/1016_backup/match; git pull'
 
 
 workflows:
